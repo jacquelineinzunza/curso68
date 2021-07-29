@@ -164,3 +164,12 @@ def adivina_numero valor
 end 
 adivina_numero 25
 =end
+
+for i in(1..255)
+  puts i
+end
+
+
+
+
+
