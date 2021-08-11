@@ -163,12 +163,16 @@ def adivina_numero valor
     end
 end 
 adivina_numero 25
-=end
+
 
 for i in(1..255)
   puts i
 end
 
+=end
+24.class    # => Fixnum
+true.class  # => TrueClass
+nil.class   # => NilClass
 
 
 
