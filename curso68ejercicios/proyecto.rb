@@ -5,10 +5,14 @@ Crea una clase Proyecto que tenga los siguientes atributos: nombre, descripcion.
 
 class Proyecto
     def initialize()
-    @nombre = isidora
-    @descripcion = niña
+    @nombre = p_nombre
+    @descripcion = p_descripcion
+    end
+    def presentacion()
+    puts "#{@nombre}, #{@descripcion}"
     end
 end
 proyecto1 = Proyecto.new("Proyecto 1", "Descripción 1")
 puts proyecto1.nombre # => "Proyecto 1"
 proyecto1.presentacion  # => "Proyecto 1, Descripción 1"
+
